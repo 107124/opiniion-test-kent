@@ -1,17 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <CustomersComponent />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import CustomersComponent from "./components/CustomersComponent.vue";
+import "sweetalert2/dist/sweetalert2.min.css";
+// import Swal from "sweetalert2";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    CustomersComponent,
+  },
+};
 </script>
 
 <style>
